@@ -62,7 +62,7 @@
 				},
 				"AppBucket": {
 					"type": "resource.file-store",
-					"name": "AdminAppBucket",
+					"name": "AppBucket",
 					"accessLevel": "private",
 					"filesSources": [
 						{
@@ -74,7 +74,7 @@
 				},
 				"ApplicationSite": {
 					"type": "resource.cdn",
-					"name": "AdminAppSite",
+					"name": "ApplicationSite",
 					"defaultRoot": "index.html",
 					"isSPA": true,
 					"tls": {
@@ -85,7 +85,7 @@
 				},
 				"LandingApplicationSite": {
 					"type": "resource.cdn",
-					"name": "AdminAppSite",
+					"name": "LandingApplicationSite",
 					"defaultRoot": "index.html",
 					"isSPA": true,
 					"tls": {
@@ -96,7 +96,7 @@
 				},
 				"LandingAppBucket": {
 					"type": "resource.file-store",
-					"name": "AdminAppBucket",
+					"name": "LandingAppBucket",
 					"accessLevel": "private",
 					"filesSources": [
 						{
@@ -111,33 +111,33 @@
 				"designer": {
 					"resourcePositions": {
 						"AdminAppBucket": {
-							"x": 2002.7777777777778,
-							"y": 318.2222222222222,
+							"x": 1671,
+							"y": 136,
 							"z": 0
 						},
 						"AdminAppSite": {
-							"x": 1694.9999694824219,
-							"y": 323.7777633666992,
+							"x": 1397,
+							"y": 136,
 							"z": 0
 						},
 						"AppBucket": {
-							"x": 2052.777777777778,
-							"y": 368.2222222222222,
+							"x": 1671,
+							"y": 195,
 							"z": 0
 						},
 						"ApplicationSite": {
-							"x": 1744.9999694824219,
-							"y": 373.7777633666992,
+							"x": 1397,
+							"y": 195,
 							"z": 0
 						},
 						"LandingApplicationSite": {
-							"x": 1794.9999694824219,
-							"y": 423.7777633666992,
+							"x": 1397,
+							"y": 254,
 							"z": 0
 						},
 						"LandingAppBucket": {
-							"x": 2102.777777777778,
-							"y": 418.2222222222222,
+							"x": 1671,
+							"y": 254,
 							"z": 0
 						}
 					}
