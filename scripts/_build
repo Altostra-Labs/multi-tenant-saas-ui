@@ -1,17 +1,6 @@
-# multi-tenant-saas-ui
+#! /usr/bin/env bash
 
-Needs the following environment in order to install:
-```
-REGION="aws region"
-
-ADMIN_APIGATEWAYURL # Serves all UI apps
-ADMIN_USERPOOLID
-ADMIN_APPCLIENTID
-```
-
-
-```shell
-cd clients/Admin || exit # stop execution if cd fails
+cd Admin || exit 1 # stop execution if cd fails
 
 echo "Configuring environment for Admin Client"
 cat <<EoF >./src/environments/environment.prod.ts
@@ -126,13 +115,14 @@ export const environment = {
 };
 EoF
 
-yarn install && yarn build
-# npm install --legacy-peer-deps && npm run build
+# yarn install && yarn build
+npm install --legacy-peer-deps && npm run build
 
 # echo "aws s3 sync --delete --cache-control no-store dist s3://${LANDING_APP_SITE_BUCKET}"
 # aws s3 sync --delete --cache-control no-store dist "s3://${LANDING_APP_SITE_BUCKET}"
-alto sync ui-stack -a
-alto invalidate ui-stack -a
+cd ..
+# alto sync ui-stack -a
+# alto invalidate ui-stack -a
 
 
 
@@ -143,10 +133,3 @@ fi
 cd ../..
 
 echo "Completed configuring environment for Landing Client"
-
-echo "Admin site URL: https://$ADMIN_SITE_URL"
-echo "Application site URL: https://$APP_SITE_URL"
-echo "Landing site URL: https://$LANDING_APP_SITE_URL"
-echo "Successfully completed deployment"
-
-```
