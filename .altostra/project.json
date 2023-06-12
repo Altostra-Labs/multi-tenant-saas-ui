@@ -111,33 +111,33 @@
 				"designer": {
 					"resourcePositions": {
 						"AdminAppBucket": {
-							"x": 1671,
-							"y": 136,
+							"x": 638,
+							"y": 222,
 							"z": 0
 						},
 						"AdminAppSite": {
-							"x": 1397,
-							"y": 136,
+							"x": 364,
+							"y": 222,
 							"z": 0
 						},
 						"AppBucket": {
-							"x": 1671,
-							"y": 195,
+							"x": 638,
+							"y": 281,
 							"z": 0
 						},
 						"ApplicationSite": {
-							"x": 1397,
-							"y": 195,
+							"x": 364,
+							"y": 281,
 							"z": 0
 						},
 						"LandingApplicationSite": {
-							"x": 1397,
-							"y": 254,
+							"x": 364,
+							"y": 340,
 							"z": 0
 						},
 						"LandingAppBucket": {
-							"x": 1671,
-							"y": 254,
+							"x": 638,
+							"y": 340,
 							"z": 0
 						}
 					}
