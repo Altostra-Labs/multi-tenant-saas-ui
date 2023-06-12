@@ -71,8 +71,8 @@ export const environment = {
 };
 EoF
 
-yarn install && yarn build
-# npm install --legacy-peer-deps && npm run build
+# yarn install && yarn build
+npm install --legacy-peer-deps && npm run build
 
 # echo "aws s3 sync --delete --cache-control no-store dist s3://${APP_SITE_BUCKET}"
 # aws s3 sync --delete --cache-control no-store dist "s3://${APP_SITE_BUCKET}"
@@ -116,13 +116,12 @@ export const environment = {
 EoF
 
 # yarn install && yarn build
-npm install --legacy-peer-deps && npm run build
+(npm install --legacy-peer-deps && npm run build) || exit 1
 
 # echo "aws s3 sync --delete --cache-control no-store dist s3://${LANDING_APP_SITE_BUCKET}"
 # aws s3 sync --delete --cache-control no-store dist "s3://${LANDING_APP_SITE_BUCKET}"
 cd ..
-# alto sync ui-stack -a
-# alto invalidate ui-stack -a
+(alto sync $ALTO_STACK_NAME -a && alto invalidate $ALTO_STACK_NAME -a) || exit 1
 
 
 

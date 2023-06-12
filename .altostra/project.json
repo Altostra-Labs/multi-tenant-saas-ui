@@ -43,7 +43,7 @@
 					"accessLevel": "private",
 					"filesSources": [
 						{
-							"path": "clients/Admin/dist",
+							"path": "Admin/dist",
 							"type": "files-source.project-dir"
 						}
 					],
@@ -66,7 +66,7 @@
 					"accessLevel": "private",
 					"filesSources": [
 						{
-							"path": "clients/Application/dist",
+							"path": "Application/dist",
 							"type": "files-source.project-dir"
 						}
 					],
@@ -100,7 +100,7 @@
 					"accessLevel": "private",
 					"filesSources": [
 						{
-							"path": "clients/Landing/dist",
+							"path": "Landing/dist",
 							"type": "files-source.project-dir"
 						}
 					],
@@ -136,8 +136,8 @@
 							"z": 0
 						},
 						"LandingAppBucket": {
-							"x": 638,
-							"y": 340,
+							"x": 910,
+							"y": 137,
 							"z": 0
 						}
 					}
