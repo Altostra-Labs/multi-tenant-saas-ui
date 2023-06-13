@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-ADMIN_APIGATEWAYURL=https://6e7c8f7ms4.execute-api.us-east-1.amazonaws.com/Prod
+ADMIN_APIGATEWAYURL=https://yohqihb9vl.execute-api.us-east-1.amazonaws.com/Prod
 ADMIN_USERPOOLID=us-east-1_4h5inaRFi
 ADMIN_APPCLIENTID=1hjtnpppctnvnft4cknv3j2kc1
 APP_SITE_BUCKET=ui-multi-tenant-saas-ui-appbucket-9iqy82eqhkhc
