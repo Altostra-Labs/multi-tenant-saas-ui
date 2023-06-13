@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 ADMIN_APIGATEWAYURL=https://yohqihb9vl.execute-api.us-east-1.amazonaws.com/Prod
-ADMIN_USERPOOLID=us-east-1_4h5inaRFi
+ADMIN_USERPOOLID=us-east-1_Vvg92XnV4
 ADMIN_APPCLIENTID=1hjtnpppctnvnft4cknv3j2kc1
 APP_SITE_BUCKET=ui-multi-tenant-saas-ui-appbucket-9iqy82eqhkhc
 LANDING_APP_SITE_BUCKET=ui-multi-tenant-saas-ui-landingappbucket-1eabfabv0wkab
